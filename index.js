@@ -6,6 +6,10 @@ Initializer codes to use the different npms installed
 -------------------------------------------------------------------------------------------------------------------
 */
 
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
+
 // code to use express
 const express = require('express');
 const app = express();
