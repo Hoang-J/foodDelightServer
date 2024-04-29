@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "The backend server side of our restaurant called Food Delight",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Ashley, Emmanuel, Joel, Jessie",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.0",
     "pg-promise": "^11.6.0",
+    "pm2": "^5.3.1",
     "winston": "^3.13.0"
   }
 }
